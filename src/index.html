@@ -1,0 +1,39 @@
+
+<html>
+<head>
+<title>Sample Finance App</title>
+<link rel="stylesheet" href="/css/style.css">
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="/js/app.js"></script>
+<script src="/angular-routes/app-routes.js"></script>
+
+</head>
+<body ng-app="financeApp">
+    <div class="container">
+    <div id="toggle" class="button_container">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+  </div>
+    <div id="overlay" class="overlay">
+    	<nav class="overlay-menu">
+        <ul>
+          <li>
+          	<a ui-sref="home">Home</a>
+          </li>
+          <li> 
+           <a ui-sref="home">History</a>
+          </li>
+           <li>
+           	<a ui-sref="login">Login</a>
+          </li>
+</nav>
+</div>
+	<main>
+    <div ui-view></div>
+</main>
+</body>
+</html>

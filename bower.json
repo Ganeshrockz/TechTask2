@@ -1,0 +1,25 @@
+{
+  "name": "financeapp",
+  "description": "finance app",
+  "main": "index.js",
+  "authors": [
+    "Ganesh"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Ganeshrockz/bounceTest",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ] ,
+"dependencies": {
+	"bootstrap": "latest",
+        "font-awesome": "latest",
+        "animate.css": "latest",
+        "angular": "latest",
+        "angular-route": "latest"   
+}
+
+}
